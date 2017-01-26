@@ -1,1 +1,71 @@
+/* --------------- Color Glossery -------------- */
+/* # Dark green: #005A31
+   # Kelly Green: #A8CD1B
+   # Pea Green: #CBE32D
+   # Yellow Green: #F3FAB6
+   #
+   #
+   #
+*/
+/* ------------------- body ------------------ */
+body {
+   background-color: #F3FAB6;
+   color: #333;
+   font-size: 1em;
+   line-height: 1.4;
+   margin: 0;
+   padding: 0;
+   font-family: 'VT323', monospace;
+}
 
+/* ------------------- navbar ------------------ */
+.navbar {
+  background-color: #005A31;
+}
+
+nav a{
+  background-color: #A8CD1B;
+  font-size: 40pt;
+}
+
+/* ------------------- headers ------------------ */
+
+h1 {
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+
+/* ------------------- a ------------------ */
+
+a:link {
+ font-weight: bold;
+ text-decoration: underline;
+ color: #A8CD1B;
+ }
+
+a:visited {
+ font-weight: bold;
+ text-decoration: underline;
+ color: #005A31;
+ }
+
+a:hover {
+ font-weight: normal;
+ text-decoration: none;
+ color: #ffffff;
+ background: #ff9933;
+ }
+
+a:active {
+ font-weight: normal;
+ text-decoration: none;
+ color: #ffffff;
+ background: #cc0000;
+ }
+
+ /* ------------------- robot ------------------ */
+
+ p .robot {
+   text-align: center;
+
+ }
