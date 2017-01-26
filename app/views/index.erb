@@ -1,9 +1,13 @@
-<h1>My Robots</h1>
+<h1 class="welcome">Welcome to Robot World</h1>
 
+<div class="row container-fluid">
 <% @robots.each do |robot| %>
-  <h3><a href="/robots/<%= robot.id %>"><%= robot.name %></a></h3>
-  <img src="https://robohash.org/<%= robot.name %>.png">
-  <p><%= robot.city %></p>
-  <p><%= robot.state %></p>
-  <p><%= robot.department %></p>
+    <div class="col-md-4 robot">
+      <h3><a href="/robots/<%= robot.id %>"><%= robot.name %></a></h3>
+      <img src="https://robohash.org/<%= robot.name %>.png?size=150x150">
+      <p><%= robot.city %></p>
+      <p><%= robot.state %></p>
+      <p><%= robot.department %></p>
+    </div>
 <% end %>
+</div>
